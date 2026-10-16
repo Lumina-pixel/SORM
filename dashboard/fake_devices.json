@@ -1,0 +1,7 @@
+[
+  { "deviceId": 1, "hostname": "LAB1-PC01", "ipAddress": "192.168.1.21", "status": "ONLINE", "lastSeenAt": "2026-10-16T10:30:00", "cpuUsage": 85.5, "ramUsage": 70.2, "diskUsage": 55.0 },
+  { "deviceId": 2, "hostname": "LAB1-PC02", "ipAddress": "192.168.1.22", "status": "ONLINE", "lastSeenAt": "2026-10-16T10:30:05", "cpuUsage": 23.4, "ramUsage": 41.8, "diskUsage": 62.3 },
+  { "deviceId": 3, "hostname": "LAB1-PC03", "ipAddress": "192.168.1.23", "status": "OFFLINE", "lastSeenAt": "2026-10-16T09:12:40", "cpuUsage": 12.0, "ramUsage": 35.5, "diskUsage": 48.9 },
+  { "deviceId": 4, "hostname": "LAB2-PC01", "ipAddress": "192.168.1.31", "status": "ONLINE", "lastSeenAt": "2026-10-16T10:29:58", "cpuUsage": 94.7, "ramUsage": 91.2, "diskUsage": 77.1 },
+  { "deviceId": 5, "hostname": "LAB2-PC02", "ipAddress": "192.168.1.32", "status": "OFFLINE", "lastSeenAt": "2026-10-15T17:45:10", "cpuUsage": 5.3, "ramUsage": 28.0, "diskUsage": 91.6 }
+]

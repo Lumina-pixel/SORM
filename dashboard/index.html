@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SORM Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>SORM Lab Monitor</h1>
+    <p id="updated">Loading...</p>
+  </header>
+
+  <main>
+    <section class="summary">
+      <div><span id="totalCount">0</span> computers</div>
+      <div class="on"><span id="onlineCount">0</span> online</div>
+      <div class="off"><span id="offlineCount">0</span> offline</div>
+    </section>
+
+    <div id="errorBox" class="error" hidden></div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Hostname</th><th>IP address</th><th>Status</th>
+            <th>CPU</th><th>RAM</th><th>Disk</th><th>Last seen</th>
+          </tr>
+        </thead>
+        <tbody id="deviceBody"></tbody>
+      </table>
+    </div>
+
+    <section id="history" hidden>
+      <h2 id="historyTitle"></h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Time</th><th>CPU</th><th>RAM</th><th>Disk</th></tr></thead>
+          <tbody id="historyBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
